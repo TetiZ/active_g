@@ -1,0 +1,29 @@
+.header-section {
+}
+
+.header-items-wrapper {
+  /* Box model */
+  padding: 8px 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* Visual */
+  background: var(--secondary-bg-color);
+}
+
+.header-logo {
+  flex-shrink: 0;
+}
+
+.header-nav {
+}
+
+.header-navlist {
+  display: flex;
+  gap: 13px;
+}
+
+.header-navlist-item {
+  font-size: 12px;
+}

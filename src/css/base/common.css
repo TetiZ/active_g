@@ -1,0 +1,14 @@
+body {
+  /* Typography */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+
+  color: var(--main-text-color);
+}
+
+h1,
+h2,
+h3 {
+  /* Typography */
+  font-family: 'Merriweather', serif;
+}
