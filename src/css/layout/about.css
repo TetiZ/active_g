@@ -1,17 +1,45 @@
 .about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  position: relative;
 }
 
 .bg-rect {
+  height: 90px;
+  width: 100%;
+  background: #5841af;
+  position: absolute;
+  top: 13px;
+  z-index: -1;
 }
 
 .about-list {
+  display: flex;
+  gap: 10px;
 }
 
 .about-list-item {
+  width: calc((100% - 20px) / 3);
+  min-height: 120px;
+  padding: 4px 7px;
+  text-align: center;
+  background: var(--secondary-bg-color);
 }
 
 .about-list-title {
+  margin-bottom: 6px;
+  font-size: 11px;
 }
 
 .about-list-text {
+  font-size: 7px;
+}
+
+.goals-list {
+}
+.goals-list-item {
+  margin-bottom: 4px;
+  list-style-type: '-';
 }
