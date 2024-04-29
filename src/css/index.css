@@ -7,12 +7,12 @@
 @import url(./base/reset.css);
 @import url(./base/section.css);
 
+/* Utils */
+@import url(./utils/variables.css);
+@import url(./utils/visually-hidden.css);
+
 /* Layout */
 @import url(./layout/header.css);
 @import url(./layout/hero.css);
 @import url(./layout/about.css);
 @import url(./layout/footer.css);
-
-/* Utils */
-@import url(./utils/variables.css);
-@import url(./utils/visually-hidden.css);
